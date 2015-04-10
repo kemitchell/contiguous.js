@@ -1,0 +1,30 @@
+{
+  "name": "contiguous",
+  "description": "check an Array for contiguous elements matching a predicate",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "http://kemitchell.com/"
+  },
+  "bugs": "https://github.com/kemitchell/contiguous.js/issues",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4"
+  },
+  "homepage": "https://github.com/kemitchell/contiguous.js",
+  "keywords": [
+    "arrays",
+    "predicates",
+    "validation"
+  ],
+  "license": "Apache-2.0",
+  "main": "contiguous.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kemitchell/contiguous.js.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
