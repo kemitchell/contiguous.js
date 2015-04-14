@@ -14,3 +14,5 @@ module.exports = function(array, predicate) {
     }
   });
 };
+
+module.exports.version = '1.0.1';
