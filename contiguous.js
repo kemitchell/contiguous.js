@@ -1,6 +1,6 @@
 module.exports = function(array, predicate) {
   var lastResult = true;
-  return array.some(function(element, index, list) {
+  return array.some(function(element, index) {
     var currentResult = predicate(element);
     if (index === 0) {
       lastResult = currentResult;
@@ -13,4 +13,4 @@ module.exports = function(array, predicate) {
       }
     }
   });
-}
+};
