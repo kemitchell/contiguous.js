@@ -1,10 +1,11 @@
 module.exports = function(array, predicate) {
   var lastResult = true;
   return array.some(function(element, index, list) {
+    var currentResult = predicate(element);
     if (index === 0) {
+      lastResult = currentResult;
       return false;
     } else {
-      var currentResult = predicate(element);
       if (lastResult && currentResult) {
         return true;
       } else {

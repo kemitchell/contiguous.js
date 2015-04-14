@@ -16,6 +16,11 @@ describe('conspicuous', function() {
       .to.be.false;
   });
 
+  it('returns false when first matches and second does not', function() {
+    expect(contiguous(['y', 'x'], isX))
+      .to.be.false;
+  });
+
   it('returns true for an empty array', function() {
     expect(contiguous([], isX))
       .to.be.false;
