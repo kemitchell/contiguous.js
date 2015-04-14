@@ -2,6 +2,7 @@ contiguous.js
 =============
 
 [![NPM version](https://img.shields.io/npm/v/contiguous.svg)](https://www.npmjs.com/package/contiguous)
+[![build status](https://img.shields.io/travis/kemitchell/contiguous.js.svg)](http://travis-ci.org/kemitchell/contiguous.js)
 
 Check an Array for contiguous elements matching a predicate.
 
