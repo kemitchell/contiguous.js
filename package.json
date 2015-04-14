@@ -9,8 +9,7 @@
   },
   "bugs": "https://github.com/kemitchell/contiguous.js/issues",
   "devDependencies": {
-    "chai": "^2.2.0",
-    "mocha": "^2.2.4"
+    "literate-assertions": "^0.1.1"
   },
   "homepage": "https://github.com/kemitchell/contiguous.js",
   "keywords": [
@@ -25,6 +24,6 @@
     "url": "https://github.com/kemitchell/contiguous.js.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "literate-assertions < README.md | sed \"s!'contiguous'!'./'!g\" | node"
   }
 }
