@@ -17,7 +17,7 @@
     "predicates",
     "validation"
   ],
-  "license": "Apache-2.0",
+  "license": "MIT",
   "repository": "kemitchell/contiguous.js",
   "scripts": {
     "lint": "standard",
