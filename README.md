@@ -1,17 +1,20 @@
 ```javascript
 var contiguous = require('contiguous')
+var assert = require('assert')
 
-var isX = function(value) { return value === 'x'; }
+var isX = function(value) {
+  return value === 'x'
+}
 
-contiguous(['x', 'x'], isX) // === true
+assert(contiguous(['x', 'x'], isX) === true)
 
-contiguous(['x', 'y'], isX) // === false
+assert(contiguous(['x', 'y'], isX) === false)
 
-contiguous(['y', 'x'], isX) // === false
+assert(contiguous(['y', 'x'], isX) === false)
 
-contiguous([], isX) // === false
+assert(contiguous([], isX) === false)
 
-contiguous(['x'], isX) // === false
+assert(contiguous(['x'], isX) === false)
 
-contiguous(['y'], isX) // === false
+assert(contiguous(['y'], isX) === false)
 ```
