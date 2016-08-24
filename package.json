@@ -1,7 +1,7 @@
 {
   "name": "contiguous",
   "description": "check an Array for contiguous elements matching a predicate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com)",
   "devDependencies": {
     "defence-cli": "^2.0.0",
