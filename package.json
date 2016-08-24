@@ -19,7 +19,6 @@
     "validation"
   ],
   "license": "Apache-2.0",
-  "main": "contiguous.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/kemitchell/contiguous.js.git"
